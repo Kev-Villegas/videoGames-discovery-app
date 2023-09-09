@@ -9,8 +9,9 @@ import NavBar from './components/NavBar';
 import { useState } from 'react';
 
 export interface GameQuery {
-  genre: Genre | null;
   platform: Platform | null;
+  genre: Genre | null;
+  searchText: string;
   sortOrder: string;
 }
 
@@ -29,7 +30,9 @@ function App() {
       }}
     >
       <GridItem area='nav'>
-        <NavBar />
+        <NavBar
+          onSearch={(searchText) => setGameQuery({ ...gameQuery, searchText })}
+        />
       </GridItem>
       <Show above='lg'>
         <GridItem area='aside' paddingX={5}>
