@@ -2,16 +2,7 @@
 
 In this project, I used React.js and TypeScript and learned how to make data requests using Axios. I also gained skills in handling errors effectively when facing common problems in API requests. This experience allowed me to improve my understanding of interacting with servers and ensure a more robust and seamless user experience in my application.
 
-Website: [Video Game Discovery](https://video-game-discovery-ix3d7iv8s-kev-villegas.vercel.app/)
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
+Live Website: [Video Game Discovery](https://video-game-discovery-ix3d7iv8s-kev-villegas.vercel.app/)
 
 ## Introduction
 This project is a video game discovery platform based on the Rawg.io API. It allows users to search for video games, view detailed information about them, and explore popular games.
